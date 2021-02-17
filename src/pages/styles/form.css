@@ -1,0 +1,25 @@
+.body{
+    width: 100vw;
+    height: 100vh;
+    background-image: url('../../imgs/gatos2.png') !important;
+    background-repeat: no-repeat;
+    background-size: contain;
+
+    font-family: 'Balsamiq Sans', cursive;
+}
+
+.label-autor {
+    margin-top: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+    .body{
+        width: 100vw;
+        height: 100vh;
+        background-image: url('../../imgs/gatos2.png') !important;
+        background-repeat: no-repeat;
+        background-size: cover;
+    
+        font-family: 'Balsamiq Sans', cursive;
+    }
+  }
